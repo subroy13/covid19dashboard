@@ -1,0 +1,529 @@
+body {
+    font-family: 'Roboto' !important;
+}
+
+.content {
+    padding: 0;
+}
+
+.content > .container-fluid {
+    padding: 0;
+}
+
+blockquote {
+    border-left: 0.7rem solid #fbc02d;
+}
+
+.card > .card-header {
+    background-color: #e99b42;
+    color: white;
+}
+
+.card-title {
+    font-size: x-large;
+    font-family: 'Lato' !important;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.card-pane-right {
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    color: black;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    border: 5px solid darkorange;
+}
+
+.card-pane-right > .inner-pane {
+    top: 50%;
+}
+
+.input-group-addon {
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
+
+.fa-expand {
+    color: white;
+}
+
+.fa-compress {
+    color: white;
+}
+
+.fa-minus {
+    color: white;
+}
+
+.fa-plus {
+    color: white;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    transition-duration: 500ms;
+}
+
+
+.main-footer {
+    background-color: #fff3e0;
+}
+
+.main-footer a {
+    color: darkorange;
+}
+
+.main-footer a:hover {
+    color: darkred;
+    text-decoration: underline;
+    transition: ease-out;
+    transition-duration: 500ms;
+}
+
+.col-sm-3 {
+    padding:0;
+}
+
+.col-md-3 {
+    padding:0;
+}
+
+.col-lg-3 {
+    padding:0;
+}
+
+
+
+.card-footer {
+    background-color: #eee;
+}
+
+
+/* ================== NAVBAR =================== */
+
+
+.navbar-dark {
+    background-color: #a70716;
+}
+
+.brand-link {
+    background-color: #a70716 !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    background-color: #bf360c !important;
+    color: white !important;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    color: #bf360c;
+}
+
+
+
+
+/* ======== HOME TAB ========== */
+
+.info-box {
+    margin: 0.5rem;
+}
+
+    
+#shiny-tab-home {
+    padding: 0;
+}
+
+#shiny-tab-home .row {
+    padding-bottom: 5rem;
+}
+
+
+#outer-home {
+    background: url('coronavirus.jpg');
+    background-color: red;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: -20px;
+}
+
+#outer-home svg {
+    display: block;
+}
+
+#inner-home {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:2rem;
+}
+
+#inner-home > p {
+    text-align: right;
+}
+
+#inner-home > h1, #inner-home > h3, #inner-home > p {
+    text-shadow: 2px 2px 5px black, 5px 5px 20px black;
+}
+
+#main-logo {
+    filter: drop-shadow(2px 4px 6px black);
+    position: absolute;
+    right: 10%;
+}
+
+.home-section-header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #f16806;
+    margin-bottom: 2.5rem;
+}
+
+.home-section-header::after {
+    content: ' ';
+    display: block;
+    width: 80%;
+    margin-top: 0.5rem;
+    border: 2px solid #f16806;
+    background-color: #f16806;
+}
+
+
+#see-more-btn {
+    background: #faad00;
+    padding: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top: 2rem;
+    margin-right:1rem;
+}
+
+
+#pred-more-btn {
+    background-color: #faad00;
+    padding: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top: 2rem;
+    margin-left:1rem;
+}
+
+
+
+
+/* ======= SUMMARY TAB ============= */
+
+#home-glance-card {
+    background-color: blanchedalmond;
+}
+
+
+#confirmedBox {
+    color: #ffc107;
+}
+
+#confirmedBox .info-box-icon {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+#activeBox {
+    color: #dc3545;
+}
+
+#activeBox .info-box-icon {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#recoveredBox {
+    color: #28a745;
+}
+
+#recoveredBox .info-box-icon {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#deceasedBox {
+    color: #6c757d;
+}
+
+#deceasedBox .info-box-icon {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* ============ COUNT TABS =============== */
+
+
+.tab-section-heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: auto;
+    width: max-content;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    word-spacing: 0.5rem;
+}
+
+
+/* ======== PREDICTION TAB ============= */
+
+#pred-step1 > .card-body {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pred-step2 .row > p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 2rem;
+    background: #e7e7e7;
+    margin-bottom: 1.5rem;
+    border-radius: 15px;
+}
+
+#plottext-pred p {
+    font-style: italic;
+}
+
+#plottext-pred blockquote {
+    color: red;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+/* === BOOTSTRAP RESPONSIVE FONT SIZES === */
+
+@media (max-width: 1200px) {
+    legend {
+        font-size: calc(1.275rem + 0.3vw);
+    }
+    h1,
+    .h1 {
+        font-size: calc(1.375rem + 1.5vw);
+    }
+    h2,
+    .h2 {
+        font-size: calc(1.325rem + 0.9vw);
+    }
+    h3,
+    .h3 {
+        font-size: calc(1.3rem + 0.6vw);
+    }
+    h4,
+    .h4 {
+        font-size: calc(1.275rem + 0.3vw);
+    }
+    .display-1 {
+        font-size: calc(1.725rem + 5.7vw);
+    }
+    .display-2 {
+        font-size: calc(1.675rem + 5.1vw);
+    }
+    .display-3 {
+        font-size: calc(1.575rem + 3.9vw);
+    }
+    .display-4 {
+        font-size: calc(1.475rem + 2.7vw);
+    }
+    .close {
+        font-size: calc(1.275rem + 0.3vw);
+    }
+}
+
+
+/* REPONSIVE DESIGNS */
+
+@media only screen and (max-width: 800px) {
+    /* TABLETS */
+
+    #main-logo {
+        height: 150px;
+        width: 150px;
+    }
+
+    #see-more-btn {
+        padding: 0.5rem;
+    }
+
+    #pred-more-btn {
+        padding: 0.5rem;
+    }
+
+    #outer-home + .row > .col-md-8 {
+        margin-top: 3rem !important;
+        min-width: 80%;
+    }
+
+    section.content {
+        position: absolute;
+        left: 0;
+    }
+
+    .tab-section-heading {
+        max-width: 98vw;
+    }
+
+    #input-home-state + button + .dropdown-menu.show {
+        position: relative !important;
+        transform: none !important;
+    }
+
+    #input-R0-state + button + .dropdown-menu.show {
+        max-width: 200px;
+    }
+
+    #input-R0-district + button + .dropdown-menu.show {
+        max-width: 200px;
+    }
+
+    #home-glance-card .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    #pred-step1 > .card-body {
+        display: block;
+    }
+
+    #title-pred {
+        margin-top: 3rem;
+    }
+    
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* For Mobile Devices */
+
+    #inner-home > .d-flex.justify-content-center {
+        display: block !important;
+
+    }
+
+    #see-more-btn {
+        margin-right: 0;
+        padding: 0.5rem;
+    }
+
+    #pred-more-btn {
+        margin-left: 0;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #main-logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    #outer-home + .row {
+        margin-top: 5rem !important;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section.content {
+        position: initial;
+    }
+
+    .lead.font-italic {
+        font-size: 1rem;
+    }
+
+    #title-R0-state {
+        margin-top: 3rem;
+    }
+
+    #title-R0-district {
+        margin-top: 3rem;
+    }
+
+
+    #pred-step1 > .card-body {
+        display: block;
+    }
+
+    #title-pred {
+        margin-top: 3rem;
+    }
+
+    #plottext-pred {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    #shiny-tab-prediction .col-sm-12 + .row > .col-md-10 {
+        width: 85%;
+    }
+
+    #plot-home-map {
+        height: 300px !important;
+    }
+
+    #plot-home-map > img {
+        object-fit: cover;
+        height: 300px;
+    }
+
+    #input-home-state + button + .dropdown-menu.show {
+        max-width: 250px;
+    }
+
+    #home-glance-card .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #input-R0-state + button + .dropdown-menu.show {
+        max-width: 250px;
+    }
+
+    #input-R0-district + button + .dropdown-menu.show {
+        max-width: 250px;
+    }
+
+    #input-pred-state + button + .dropdown-menu.show {
+        max-width: 250px;
+    }
+
+    #input-pred-district + button + .dropdown-menu.show {
+        max-width: 250px;
+    }
+
+}
+
+
+
+
+
